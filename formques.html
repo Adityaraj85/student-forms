@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>student info</title>
+    <link rel="stylesheet" href="form.css"/>
+</head>
+<body>
+<div id="container">
+        <h1>UID 22BCS80223</h1>
+    <table border="1px" cellspacing="5px" cellpadding="5px">
+        <tr>
+            <th colspan="15">Student Registaraion Form</th>
+        </tr>
+        <tr>
+            <td><label id="Enter">First Name</label></td>
+            <td><input type="text" name="text" placeholder="Enter your first name" id="Enter"/></td>
+        </tr>
+        <tr>
+            <td><label id="Enter">Middle Name</label></td>
+            <td><input type="text" name="text" placeholder="Enter your middle name" id="Enter"/></td>
+        </tr>
+        <tr>
+            <td><label id="Enter">Last Name</label></td>
+            <td><input type="text" name="text" placeholder="Enter your last name" id="Enter"/></td>
+        </tr>
+        <tr>
+            <td><label id="Enter">Email</label></td>
+            <td><input type="text" name="text" placeholder="abc@gmail.com" id="Enter"/></td>
+        </tr>
+        <tr>
+            <td><label id="number">Mobile no.</label></td>
+            <td><input type="number" name="number" placeholder="Only 10digit are allowed" id="number"/></td>
+        </tr>
+         <tr>
+            <td><label id="Gender">Gender</label></td>
+            <td><input type="radio" name="number" id="Gender" value="Male"/>Male
+
+                <input type="radio" name="number" id="Gender" value="Female"/>Female</td>
+        </tr>
+        <tr>
+            <td><label id="Date of Birth">Date of Birth</label></td>
+            <td><input type="Date" name="Date" placeholder="Only 10digit are allowed" id="Date of Birth"/></td>
+        </tr>
+        <tr>
+            <td><label for="textarea">Address</label></td>
+            <td><textarea name="adddress" placeholder="" id="Address" cols="30" rows="10">  </textarea>
+        <tr>
+            <td><label id="Enter">City</label></td>
+            <td><input type="text" name="text" placeholder="" id="Enter"/></td>
+        </tr>
+        <tr>
+            <td><label id="number">Area PIN</label></td>
+            <td><input type="number" name="number" placeholder="" id="number"/></td>
+        </tr>
+        <tr>
+            <td><label id="Enter">State</label></td>
+            <td><input type="text" name="text" placeholder="" id="Enter"/></td>
+        </tr>
+        <tr>
+            <td><label id="Enter">Qualification</label></td>
+            <td>
+                <select name="Qualification" >
+                <option value="" disabled selected hidden>Select Qualification</option>
+                <option value="12th">12th</option>
+                <option value="Poly">polytechnic</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="1">
+                <label id="Enter">specialization</label>
+            </td>
+            <td>
+                <input type="checkbox" name="sub" id="c" value="c"/><label for="c" >Computer Science</label><br>
+                <input type="checkbox" name="sub" id="i" value="i"/><br><label for="i">Information Technology</label>
+                <input type="checkbox" name="sub" id="a" value="a"/><br><label for="a">Computer Architechture</label>         
+                <input type="checkbox" name="sub" id="t" value="t"/><br> <label for="t">Tele communication</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label id="password">Password</label></td>
+            <td><input type="password" name="password" id="password" placeholder="password"/></td>
+        </tr>
+        <tr>
+            <td colspan="1">
+            <input type="submit" name="submit" value="Registered"/>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
